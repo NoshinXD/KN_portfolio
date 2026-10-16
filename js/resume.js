@@ -25,17 +25,6 @@
     target: '#sideNav'
   });
 
-  var typed = $(".typed");
-
-  // $(function() {
-  //   typed.typed({
-  //     strings: ["Lecturer. Researcher"],
-  //     typeSpeed: 70,
-  //     loop: true,
-  //     showCursor: false
-  //   });
-  // });
-
   $('ul.term-list').each(function(){
     if( $(this).find('li').length > 5){    
       $('li', this).eq(4).nextAll().hide().addClass('toggleable');
